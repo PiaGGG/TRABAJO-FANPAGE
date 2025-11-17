@@ -76,6 +76,21 @@ header p {
   font-style: italic;
   text-align: center;
 }
+.hero-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero-image img {
+  width: 80%;           /* Ajusta tamaño sin romper */
+  max-width: 900px;     /* Limita gigantez */
+  border-radius: 20px;  /* bordes más aesthetic */
+  display: block;
+  object-fit: cover;    /* Mantiene proporción linda */
+}
+
 
 
 .hero {
